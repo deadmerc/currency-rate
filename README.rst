@@ -29,9 +29,8 @@ Installation
 Usage Examples:
 ------------------
 
-- Initialize class
-
 	.. code-block:: python
+
 			>>> from currency_rate.converter import Converter
 			>>> converter = Converter()
 			>>> converter.rate('USD', 'GEL')
