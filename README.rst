@@ -32,21 +32,19 @@ Usage Examples:
 - Initialize class
 
 	.. code-block:: python
-
-			python
 			>>> from currency_rate.converter import Converter
 			>>> converter = Converter()
 			>>> converter.rate('USD', 'GEL')
 			2.683433
 			>>> converter.rate('EUR', 'USD', 50)
-            52.880896
-            >>> from datetime import date
-            >>> converter.rate('EUR', 'USD', 50, date(2022, 4, 10))
-            54.453328
-            >>> converter.rate('EUR', 'UNK', 50)
-            InvalidCurrencyException: UNK
-            >>> converter.rate('EUR', 'UNK', 50, verify=False)
-            None
+			52.880896
+			>>> from datetime import date
+			>>> converter.rate('EUR', 'USD', 50, date(2022, 4, 10))
+			54.453328
+			>>> converter.rate('EUR', 'UNK', 50)
+			InvalidCurrencyException: UNK
+			>>> converter.rate('EUR', 'UNK', 50, verify=False)
+			None
 
 
 
