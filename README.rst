@@ -4,7 +4,8 @@ currency-rate
 Python library for easy convert currencies
 
 Features:
---------
+--------------
+
 - List of currency rates relatively base currency
 - List of currencies
 - Get history currency rate

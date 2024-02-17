@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "currency-rate"
+version = "0.1.2"
+description = ""
+authors = ["Max <maxim.milchakov@ya.ru>"]
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+simplejson = "^3.19.2"
+incremental = "^22.10.0"
+pydantic = "^2.6.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
